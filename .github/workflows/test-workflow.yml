@@ -1,7 +1,7 @@
 on:
   push:
     branches:
-      - integ-tests
+      - master
 
 name: Integration Test
 
