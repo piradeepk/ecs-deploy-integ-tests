@@ -23,7 +23,7 @@ jobs:
       with:
         aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        aws-region: us-west-2
+        aws-region: us-east-2
 
     - name: Deploy Amazon ECS task definition
       uses: piradeepk/amazon-ecs-deploy-task-definition@6d81b9b913486a1f64aeb8c97521d8827f07ab9e
