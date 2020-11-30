@@ -26,9 +26,9 @@ jobs:
         aws-region: us-west-2
 
     - name: Deploy Amazon ECS task definition
-      uses: aws-actions/amazon-ecs-deploy-task-definition@v1
+      uses: piradeepk/amazon-ecs-deploy-task-definition@6d81b9b913486a1f64aeb8c97521d8827f07ab9e
       with:
         task-definition: task-definition.json
-        service: github-actions-deploy-task-def-integ-test
-        cluster: github-actions-deploy-task-def-integ-test
+        service: sample-app-service
+        cluster: default
         wait-for-service-stability: true
