@@ -26,7 +26,7 @@ jobs:
         aws-region: us-east-2
 
     - name: Deploy Amazon ECS task definition
-      uses: piradeepk/amazon-ecs-deploy-task-definition@6d81b9b913486a1f64aeb8c97521d8827f07ab9e
+      uses: piradeepk/amazon-ecs-deploy-task-definition@34b80dfb0548c2ff537572a542a96a22aa270b34
       with:
         task-definition: task-definition.json
         service: sample-app-service
